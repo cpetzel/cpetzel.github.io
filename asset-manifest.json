@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cpetzel/cpetzel.github.io/static/css/main.693315d4.css",
+    "main.js": "/cpetzel/cpetzel.github.io/static/js/main.130797f2.js",
+    "index.html": "/cpetzel/cpetzel.github.io/index.html",
+    "main.693315d4.css.map": "/cpetzel/cpetzel.github.io/static/css/main.693315d4.css.map",
+    "main.130797f2.js.map": "/cpetzel/cpetzel.github.io/static/js/main.130797f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.693315d4.css",
+    "static/js/main.130797f2.js"
+  ]
+}
