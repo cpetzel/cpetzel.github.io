@@ -76,9 +76,9 @@ These are the colors I picked from iTerm2's color schemes, but you can use whate
 ```js
 export const particleBgColors = () => {
   // for dark use atom one dark, for light use CLRS
-  const background = (darkMode = false) => (darkMode ? '#0d2538' : '#DCD6C8');
-  const particle = (darkMode = false) => (darkMode ? '#c678dd' : '#5C7C8A');
-  const links = (darkMode = false) => (darkMode ? '#98c379' : '#E7B669');
+  const background = (darkMode = true) => (darkMode ? '#DCD6C8' : '#0d2538' );
+  const particle = (darkMode = true) => (darkMode ? '#5C7C8A' : '#c678dd');
+  const links = (darkMode = true) => (darkMode ? '#E7B669' : '#98c379');
 
   return {
     background,
@@ -112,23 +112,23 @@ const firebaseConfig = {
 ```html
 <!-- Social Media Previews -->
     <!-- Primary Meta Tags -->
-    <title>Marina Petzel, Full Stack Developer</title>
-    <meta name="title" content="Marina Petzel, Full Stack Developer">
-    <meta name="description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
+    <title>Marina Petzel, ML Engineer</title>
+    <meta name="title" content="Marina Petzel, Machine Learning Engineer">
+    <meta name="description" content="Machine Learning Engineer based in California, passionate about Artificial Intelligence, traveling and exploring new places.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://hello.com/">
-    <meta property="og:title" content="Marina Petzel, Full Stack Developer">
-    <meta property="og:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-    <meta property="og:image" content="https://hello.com/website.jpg">
+    <meta property="og:title" content="Marina Petzel, Machine Learning Engineer">
+    <meta property="og:description" content="Machine Learning Engineer based in California, passionate about Artificial Intelligence, traveling and exploring new places.">
+    <meta property="og:image" content="https://marina.petzel.io/">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://hello.com/">
     <meta property="twitter:title" content="Marina Petzel, Full Stack Developer">
-    <meta property="twitter:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-    <meta property="twitter:image" content="https://hello.com/website.jpg">
+    <meta property="twitter:description" content="Machine Learning Engineer based in California, passionate about Artificial Intelligence, traveling and exploring new places.">
+    <meta property="twitter:image" content="https://marina.petzel.io/">
 ```
 
 

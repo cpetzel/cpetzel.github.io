@@ -70,15 +70,10 @@ export default function BaseLayout() {
             sx={{ opacity: 0.7 }}
             width={'100%'}
           >
-            {/* <p>
-              template created with &hearts; by{' '}
-              <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
+            <p> 
+              Buy me a coffee
             </p>
-            <p>
-              enhence implemented with &hearts; by <a href={'https://hello.com'}>Marina Petzel </a>,
-              redesigned with &hearts; by <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
-            </p>
-            <p>&copy; 2023</p> */}
+            {/* <p>&copy; 2023</p>  */}
           </Box>
         </Grid>
       </Grid>
