@@ -68,7 +68,7 @@ export default function BaseLayout() {
             flexDirection={'column'}
             alignItems={'center'}
             py={'1.5rem'}
-            sx={{ opacity: 0.7 }}
+            // sx={{ opacity: 0.7 }}
             width={'100%'}
           >
       
