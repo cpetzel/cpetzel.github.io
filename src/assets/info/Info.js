@@ -1,4 +1,8 @@
 import self from '../img/self.jpeg';
+import salon from '../img/salon2.png';
+import pred from '../img/predictive.jpg';
+import roch from '../img/rochester.png';
+import nature from '../img/nature.png';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -46,11 +50,11 @@ export const info = {
       icon: 'fa fa-music',  
       label: 'tiktok',
     },
-    {
-      link: 'https://hello.com/mp.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
-      icon: 'fa fa-file',
-      label: 'resume',
-    },
+    // {
+    //   link: 'https://hello.com/mp.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+    //   icon: 'fa fa-file',
+    //   label: 'resume',
+    // },
   ],
   // bio: "Hello! I'm Marina Petzel. I'm a Machine Learning Engineer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
   bio: "I am a Machine Learning Engineer. I have been working in the Data Science field for more than 5 years. I have lived in 3 countries in 6 different cities, I am constantly seeking new ways to improve and grow my skills, and I love sharing my knowledge with others.",
@@ -96,25 +100,25 @@ export const info = {
       title: 'Speaker at Predictive Analytics World for Business',
       live: null,
       source: 'https://www.predictiveanalyticsworld.com/business/2023/speakers/',
-      image: 'https://stuff.risingmedia.eu/images/speaker/8877.jpg?d=1679594790/',
+      image: pred,
     },
     {
       title: 'Speaker at Data Science Salon',
       live: null,
       source: 'https://tech.autodesk.com/events',
-      image: 'https://www.datascience.salon',
+      image: salon,
     },
     {
       title: 'Preoperative Surgical Risk Prediction',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/maritum/PeriopMortality-Prediction', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://www.nature.com/articles/s41598-022-13879-7',
+      image: nature,
     },
     {
       title: 'Master of Science. Major Data Science',
       live: null,
       source: 'https://www.rochester.edu/class-of-2021/marina-kupina/',
-      image: 'https://www.rochester.edu/class-of-2021/marina-kupina/',
+      image: roch,
     },
   ],
 };
