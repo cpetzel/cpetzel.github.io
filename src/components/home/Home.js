@@ -71,7 +71,19 @@ export default function Home({ darkMode }) {
           {info.socials.map((social, index) => (
             <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
           ))}
+
         </Box>
+        <Box p={1} 
+           fontSize={{ xs: '1rem', md: '1.5rem' }}
+           alignContent={'center'}
+           marginTop={2}
+           style={{alignItems: 'center', textAlign: 'center'}}
+           border={'2px solid white'} borderRadius={'25px'}>
+                <a href={"https://topmate.io/marina_petzel"} target={'_blank'} rel="noopener noreferrer">
+                    Schedule Time With Me
+                </a>
+
+          </Box>
       </Box>
     </Box>
   );

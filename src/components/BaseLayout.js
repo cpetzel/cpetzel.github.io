@@ -8,7 +8,6 @@ import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
 import { logGa } from '../utils/log';
-import { PopupWidget, PopupButton ,InlineWidget} from "react-calendly";
 
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
@@ -66,26 +65,11 @@ export default function BaseLayout() {
             component={'footer'}
             display={'flex'}
             flexDirection={'column'}
-            alignItems={'center'}
+            alignItems={'end'}
             py={'1.5rem'}
             // sx={{ opacity: 0.7 }}
             width={'100%'}
           >
-      
-
-      <PopupWidget
-        url="https://calendly.com/ai-marina11-io"
-      
-        /*
-         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-         */
-        rootElement={document.getElementById("root")}
-        text="Schedule time with me!"
-        textColor="#ffffff"
-        color="#00a2ff"
-      />
-
             {/* <p>&copy; 2023</p>  */}
           </Box>
         </Grid>

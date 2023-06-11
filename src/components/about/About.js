@@ -21,7 +21,9 @@ export default function About() {
           <span style={{ color: info.baseColor }}>
             about{firstName} <span className={Style.green}>(main)</span> ${' '}
           </span>
-          {info.bio}
+          <div style={{ whiteSpace: 'pre-wrap' }}>
+            {info.bio}
+          </div>
         </p>
       </>
     );

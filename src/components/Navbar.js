@@ -7,11 +7,6 @@ import { info } from '../assets/info/Info';
 
 const links = [
   {
-    name: 'Home',
-    to: '/',
-    active: 'home',
-  },
-  {
     name: 'About Me',
     to: '/about',
     active: 'about',
@@ -49,7 +44,7 @@ export default function Navbar({ darkMode, handleClick }) {
           <Box
             key={index}
             component={'li'}
-            className={link.active === active && !link.type && Style.active}
+            className={link.active === active && Style.active}
             sx={{ borderImageSource: info.gradient }}
           >
             <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
